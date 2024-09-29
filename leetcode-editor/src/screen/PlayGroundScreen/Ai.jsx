@@ -4,8 +4,10 @@ const Ai = () => {
     <>
       <div className="input">
         <div className="ai-container">
-          <h2 className="ai-header">Chat with AI</h2>
-          <p className="subtitle">Pick any one of the chat mode</p>
+          <div className="ai-header-wrapper">
+            <h2 className="ai-header">Chat with AI</h2>
+            <p className="subtitle">Pick any one of the chat modes</p>
+          </div>
           <div className="chat-modes">
             <div className="mode-card">
               <div className="icon">🔍</div>
@@ -25,9 +27,7 @@ const Ai = () => {
               Our AI already has knowledge about the problem and your solution.
               You can start asking questions right away.
             </p>
-            <br></br>
-            <p className="description">Examples:</p>
-            <br></br>
+            <p className="example">Examples:</p>
             <p>What are the pre-requisites to solve the problem?</p>
             <p>Provide me hints to solve the problem?</p>
             <p>Help me debug my code</p>

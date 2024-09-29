@@ -5,6 +5,7 @@
 
   .container-header {
     align-self: auto;
+    background-color:#0043e300;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +63,7 @@
           color: black;
           font-weight: 700;
           .mode-card {
-            background-color: aqua;
+            background-color: #6d28d9;
             border-radius: 1rem;
             padding: 2rem;
             display: flex;
@@ -72,8 +73,11 @@
             transition: background-color 0.3s ease;
 
             &:hover {
-              background-color: #3e3e3e;
-              color: white;
+              transform: scale(1.05);
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+              background-color: #7c3aed;
+              color: white !important;
+              transition: all 0.3s ease-in-out;
             }
 
             .icon {

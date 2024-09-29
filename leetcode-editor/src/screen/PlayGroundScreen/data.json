@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "fileName": "2sum",
+    "fileName": "2Sum",
     "topic": "Array",
     "difficulty": "Easy",
     "company": ["Microsoft", "Google", "Filpkart"],
